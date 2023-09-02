@@ -1,0 +1,40 @@
+// 1)multiple lines
+//We can add as many printf() statements as we want.
+Write a program which does the following
+Output: 3 + 4
+Output: 2 + 1.
+Use the printf syntax we learned in last problem. Note - Notice that in the output they are printed together without any space between them.
+
+Sol.:-
+#include<stdio.h>
+
+int main() {
+    printf("%d", 3+4);
+    printf("%d", 2+1);
+    
+    return 0;
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+//2) Outputs in seperate lines
+Note = We can use "\n" to have the next outputs be on the next line.
+It is like pressing the "Enter" / "Return" key on your keyboard, but for the output displayed.
+Example:
+
+printf("%d\n",5+4);
+Task
+Write a program which does the following
+
+Sol.:-
+Output: 3 + 4
+Output: 2 + 1 in a separate line using the given command.
+
+#include<stdio.h>
+
+int main() {
+    
+    printf("%d\n" , 3+4);
+    printf("%d" , 2+1);
+    
+    return 0;
+}
+------------------------------------------------------------------------------------------------------
