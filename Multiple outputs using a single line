@@ -1,0 +1,15 @@
+/--
+Task
+Write a program which does the following
+Output: 3 + 4
+Output: 2 + 1 in a separate line using the syntax suggested above.--/
+// Here`s is the solution for this question :-//
+
+#include<stdio.h>
+
+int main() {
+    
+    printf("%d\n%d", 3+4 , 2+1);
+    
+    return 0;
+}
