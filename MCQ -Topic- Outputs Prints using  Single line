@@ -1,4 +1,4 @@
-Statement= What will be the output of this code?
+Statement 1= What will be the output of this code?
 
 #include <stdio.h>
 
@@ -9,3 +9,15 @@ int main() {
 
 Sol. :-
 822 3
+
+-----------------------------------------------------------------
+Statement 2= What will be the output of this code?
+
+#include <stdio.h>
+
+int main() {
+  printf("Add%d to%d", 2, 3);
+  return 0;
+}
+
+Sol. :- Add2 to3
