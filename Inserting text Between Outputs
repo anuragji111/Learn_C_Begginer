@@ -1,0 +1,20 @@
+Note :- If we want any other text in between the outputs we can provide that text inside " " of printf().
+Statement:-
+Task
+Write a program which does the following
+
+Output the result of 3 + 4
+Output the result of 2 + 1 on the same line
+Insert the text "and" between the outputs.
+Note: We have a space before and after the text as well, as without those, the output would be "7and3", instead of "7 and 3".
+
+Sol.:-
+
+#include<stdio.h>
+
+int main() {
+    
+    printf("%d and %d", 3+4, 2+1);
+    
+    return 0;
+}
