@@ -1,0 +1,19 @@
+Write a program which does the following
+
+Output the result - Product of the integers 
+8 & 
+9
+Output the result - Sum of 
+100 & 
+200 multiplied by 
+2
+Output both results to separate lines.
+
+Sol.=#include<stdio.h>
+
+int main() {
+    
+    printf("%d\n%d", 8*9, (100+200)*2);
+    
+    return 0;
+}
