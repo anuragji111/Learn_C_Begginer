@@ -1,0 +1,22 @@
+Write a program for the following problem
+
+Let’s consider a rectangle of sides 11 and 13.
+Output the following on separate lines
+Area of the rectangle
+Perimeter of the rectangle
+
+
+#include<stdio.h>
+
+int main() {
+    
+    int length = 11;
+    int width = 13;
+    int area = length * width;
+    int perimeter = 2 * (length + width);
+    
+    printf("%d\n", area);
+    printf("%d", perimeter);
+    
+    return 0;
+}
