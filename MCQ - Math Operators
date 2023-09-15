@@ -1,0 +1,28 @@
+What is the difference between
+
+#include <stdio.h>
+
+int main() {
+ 
+  printf("%d\n",12);
+  printf("%d",11);
+
+  return 0;
+}
+and
+
+#include <stdio.h>
+
+int main() {
+ 
+  printf("%d\n",12);
+
+  printf("%d",11);
+
+  return 0;
+}
+
+sol.:-
+Correct Answer:
+
+The two codes are equivalent.
