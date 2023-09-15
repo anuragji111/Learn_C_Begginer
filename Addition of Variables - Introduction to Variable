@@ -1,0 +1,30 @@
+Write a program which does the following
+
+Declare two variables 
+a and 
+b
+Assign the value 
+23
+23 to 
+a and 
+20
+20 to 
+b
+Output the sum of 
+a and 
+b to the console
+Sol.:-
+
+#include<stdio.h> //here, this is a header file. //
+
+int main () {
+    
+    int a;
+    int b;
+    a = 23;
+    b = 20;
+    int sum = a+b;
+    
+    printf("%d",sum);
+    return 0;
+}
