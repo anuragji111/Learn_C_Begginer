@@ -1,0 +1,27 @@
+Write a program which does the following
+
+Find out and display the area of a rectangle of sides 45 and 76 respectively.
+Declare variables 
+ℎ
+length, 
+ℎ
+width and 
+area and assign the relevant values to them
+Make sure to add some text, so that the person reading the output knows what the output means.
+Output Format
+The Area of the given rectangle is {
+area
+
+Sol.:-
+
+#include<stdio.h>
+
+int main() {
+
+int length = 45; // Here, length is a container of number or a variable which holds 45 digit inside it //
+int width = 76;
+int area = length * width;
+
+printf("The Area of the given rectangle is %d", area);
+return 0;
+}
