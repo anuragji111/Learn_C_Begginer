@@ -1,0 +1,35 @@
+An "if statement" is written by using the 'if' keyword.
+
+Task
+Write a program which does the following
+
+Take input for two integer variables 
+a & b
+Output "Coding is Fun!" to the console if a is greater than b.
+Sample 1:
+Input
+Output
+25
+20
+Coding is Fun!
+Sample 2:
+Input
+Output
+20
+20
+
+Sol.:- 
+#include<stdio.h>
+
+int main() {
+    int a;
+    int b;
+    
+    scanf("%d", &a);
+    scanf("%d", &b);
+    
+    if(a>b)
+    { printf("Coding is Fun!");}
+    
+    return 0;
+}
