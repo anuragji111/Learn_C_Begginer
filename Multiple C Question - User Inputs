@@ -1,0 +1,20 @@
+What will be the output of this code, if the a = 5 and b = 9 based on user input?
+
+#include <stdio.h>
+
+int main() {
+
+  int a, b;
+  scanf("%d%d", &a, &b);
+  printf("%d%d%d", a, b, a + b); 
+
+  return 0;
+}
+SOL.:-
+Correct Answer:
+
+5914
+Explanation:
+a = 5, b = 9 and a + b = 14. 
+Since no 'space' or next line definition has been defined in the cout, 
+our output becomes 5914.
