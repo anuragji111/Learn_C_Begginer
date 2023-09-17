@@ -1,0 +1,28 @@
+What will be the output of this code, if the user enters 5 and 9?
+
+#include <stdio.h>
+
+int main() {
+
+  int a, b;
+  scanf("%d%d", &a, &b);
+  int c = a + 2;
+  int d = c + b;
+  printf("%d", d);
+
+  return 0;
+}
+
+SOL.:-
+
+Correct Answer:
+
+16
+Explanation:
+If the user enters 5 and 9, then based on the scanf() operation, a = 5 and b = 9.
+
+Next operations is c = a + 2 = 7
+
+Next operation is d = c + b = 7 + 9 = 16
+
+Eventually we output 16!
