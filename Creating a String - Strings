@@ -1,0 +1,23 @@
+Strings are used for storing text.
+A string variable contains a collection of characters surrounded by double quotes.
+Strings are implemented as char arrays in C.
+For example:
+
+ char name[] = "Chef";
+Task
+Write a program which does the following
+
+Create a string named fruit and assign the value "Apple" to it. 
+Output fruit to the console.
+
+Sol.:-
+#include<stdio.h>
+
+int main() {
+    
+    char fruit[] = "Apple";
+    
+    printf("%s", fruit);
+    
+    return 0;
+}
