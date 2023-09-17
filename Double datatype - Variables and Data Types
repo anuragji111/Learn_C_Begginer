@@ -1,0 +1,23 @@
+Statement :- If we want to introduce decimal values we use the double keyword before declaring the variable.
+
+Task:- 
+Write a program which does the following:
+
+Find the area of a circle whose radius is 8.9 cm. Take pi = 3.14.
+Declare variables radius, pi and area and assign the relevant values to them.
+Note: Area of a circle is Pi * radius^2
+Make sure to use the appropriate format specifier in printf() for double which is "%f"
+Sol.:- 
+
+#include<stdio.h>
+
+int main() {
+    
+    double radius = 8.9;
+ double pi = 3.14;     // radius has to be declared as a 'double'
+    double area = pi * radius * radius ;
+    
+    printf("The Area of the given Circle is %f", area);
+    return 0;
+}
+ 
