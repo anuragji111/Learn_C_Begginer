@@ -1,0 +1,17 @@
+What will be the output of this code, if the user enters Chef?
+
+#include <stdio.h>
+
+int main() {
+
+  char s[10];
+  scanf("%s",s); 
+  printf("Your name is: %s", s);
+
+  return 0;
+}
+SOL.:-
+
+Correct Answer:
+
+Your name is: Chef
