@@ -1,0 +1,27 @@
+C uses the + sign for numerical addition and strcat() for string concatenation.
+
+Numbers are added.
+Strings are concatenated.
+We cannot mix the two
+Task
+You are given a program which does the following
+
+You want to output 2569
+Try running the given code given in the IDE as it is - it will give a Compilation error
+Fix the error so that both the variables become strings and the output is 2569
+
+Sol.:- 
+
+//Solution as follows
+
+#include <stdio.h>
+ 
+int main () {
+
+  char num1[] = "25";
+  char num2[] = "69";
+  strcat(num1,num2);
+  printf("%s", num1);
+
+  return 0;
+}
