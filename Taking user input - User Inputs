@@ -1,0 +1,28 @@
+You have already learned that printf() is used to output (print) values.
+Now we will use scanf() to get user input.
+
+The scanf() function is used for input. It reads the input data from the console.
+
+Write a program which does the following
+
+Declare an integer variable a
+Try taking a number from the console and assign it to a
+Output 
+a to the console
+Sample 1:
+Input
+Output
+76
+Your number is: 76
+
+Sol.:- #include<stdio.h>
+
+int main() {
+    
+    int a;
+    
+    scanf("%d", &a);
+    printf("your number is: %d", a);
+    
+    return 0;
+}
