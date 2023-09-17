@@ -1,0 +1,39 @@
+Statement :- 
+The strcat() function defined in the string.h library can be used to add strings together to make a new string.
+This is called concatenation.
+For eg -
+
+char x[] = "Good"; 
+char y[] = "Work";
+strcat(x,y);
+printf("%s", x);
+// output will be: GoodWork
+Note: You can add spaces between words by using strcat() repeatedly.
+For eg -
+
+char x[] = "Good"; 
+char y[] = "Work";
+strcat(strcat(x," "),y);
+printf("%s", x);
+// output will be: Good Work
+Task
+Write a program which does the following
+
+Declare two variables x and y
+Assign the values "Hello" to variable x and "World" to variable y.
+Output x and y to the console. Don't forget to add a space in between them.
+My output will be Hello World.
+
+Sol.:- 
+#include<stdio.h>
+
+int main() {
+    
+    char x[] = "Hello";
+    char y[] = "World";
+    
+    strcat(strcat(x," "),y);
+    printf("%s", x,y);
+    
+    return 0;
+}
