@@ -1,0 +1,25 @@
+Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
+
+To declare an array,
+
+Define the variable type,
+Specify the name of the array followed by square brackets and
+Specify the number of elements it should store.
+For eg
+
+ char Cars[4][10] = {"Ferrari","Volvo","Lambo","Tesla"};
+Task
+Write a program which does the following
+
+Create an Array of the first 5 positive integers
+Once the array is define - output "Done" to the console.
+
+SOL.:-
+#include<stdio.h>
+
+int main() {
+    
+    int num[5] ={1,2,3,4,5};
+    printf("Done");
+    return 0;
+}
